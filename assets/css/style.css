@@ -71,7 +71,7 @@ h6 {
 --------------------------------------------------------------*/
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
-    transition-delay: 0 !important;
+    transition-delay:0s  !important;
   }
 }
 
@@ -105,13 +105,14 @@ h6 {
 
 #header .logo h1 a,
 #header .logo h1 a:hover {
-  color: #208666;
+  color: #12A541;
   text-decoration: none;
+
 }
 
 #header .logo img {
   margin: 0;
-  max-height: 40px;
+  max-height: 45px;
 }
 
 /*--------------------------------------------------------------
@@ -160,12 +161,12 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #5777ba;
+  color: #12A541;
 }
 
 .navbar .getstarted,
 .navbar .getstarted:focus {
-  background: #5777ba;
+  background: #12A541;
   color: #fff;
   padding: 12px 25px;
   margin-left: 30px;
@@ -176,7 +177,7 @@ h6 {
 
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
-  background: #748ec6;
+  background: #12A541;
   color: #fff;
 }
 
@@ -214,7 +215,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #5777ba;
+  color: #12A541;
 }
 
 .navbar .dropdown:hover>ul {
@@ -380,17 +381,28 @@ h6 {
 
 #hero h1 {
   margin: 0 0 10px 0;
-  font-size: 48px;
+  font-size: 44px;
   font-weight: 500;
   line-height: 56px;
-  color: #5777ba;
-  font-family: "Poppins", sans-serif;
+  color: #12A541;
+  font-family: sans-serif;
 }
 
 #hero h2 {
   color: #515f7d;
   margin-bottom: 50px;
   font-size: 40px;
+}
+
+#hero h3 {
+  color: #515f7d;
+  font-size: 28px;
+  text-align: justify;
+}
+
+#hero p {
+  color: #515f7d;
+  font-size: 28px;
 }
 
 #hero .download-btn {
@@ -484,7 +496,8 @@ section {
   font-weight: 400;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #5777ba;
+  color: #12A541;
+;
   font-family: "Poppins", sans-serif;
 }
 
@@ -547,6 +560,7 @@ section {
   padding: 30px 0;
 }
 
+
 .features .content .icon-box {
   margin-top: 25px;
 }
@@ -560,7 +574,7 @@ section {
 .features .content .icon-box i {
   font-size: 48px;
   float: left;
-  color: #5777ba;
+  color: #12A541;
 }
 
 .features .content .icon-box p {
