@@ -105,7 +105,7 @@ h6 {
 
 #header .logo h1 a,
 #header .logo h1 a:hover {
-  color: #5777ba;
+  color: #208666;
   text-decoration: none;
 }
 
@@ -768,7 +768,7 @@ section {
 }
 
 .pricing h4 {
-  font-size: 46px;
+  font-size: 23px;
   color: #5777ba;
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
